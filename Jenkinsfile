@@ -15,7 +15,7 @@ pipeline {
                 sh '''#!/bin/bash
                 echo 'Test Step: We run testing tool like pytest here'
 
-                source home/team13/env/bin/activate
+                source /home/team13/env/bin/activate
 
                 pytest
 
